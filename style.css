@@ -1,8 +1,7 @@
 body {
-    height: 150vh;
-    padding-left: 260px;
-    margin-right: 269px;
-    border: 2px solid red;
+    height: 200vh;
+
+
 
 
     font-family: "Inter", sans-serif;
@@ -11,7 +10,18 @@ body {
     font-style: normal;
 }
 
+.bod {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bo {
+    width: 80%;
+}
+
 .pffs {
+
     display: flex;
     width: 100%;
     height: 2rem;
@@ -36,22 +46,36 @@ body {
 
 .navbarre {
     display: flex;
-    text-align: center;
+    text-align: right;
     border: 1px solid black;
     background-color: #FFFFFF;
 
 }
 
-.icon {
+.navicon {
     display: flex;
-
+    border: 3px solid green;
+    width: 80%;
+    justify-content:
 }
 
-.nav {}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: ;
+    margin-left: 22rem;
+    border: 2px solid red;
+}
+
+
 
 ul {
     display: inline-block;
     justify-content: right;
+    border: 1px solid yellow;
+    align-items: center;
+
 }
 
 ul:hover {
@@ -59,11 +83,119 @@ ul:hover {
 }
 
 .bodyhard {
+    display: flex;
     border: 2px solid black;
-    margin-top: 3rem;
+    height: 47vh;
+
     padding-top: 3rem;
+    width: 100%;
+    background-color: #FFFAEF;
+
+
 }
 
-h1 {
-    width: 80%;
+.meuf {
+    margin-top: -3rem;
+    padding-top: -3rem;
+    border: 2px solid black;
+    height: 27rem;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.case {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bouton1 {
+    width: 40%;
+    border: 2px solid black;
+    background-color: #FDFBE0;
+    /* margin-left: 20px; */
+}
+
+.ligne1 {
+    background-color: #F5CC37;
+    height: 10px;
+}
+
+.bouton2 {
+    width: 50%;
+    align-items: flex-end;
+    border: 1px solid black;
+    background-color: #EBEEFB;
+}
+
+.ligne2 {
+    background-color: #9CB7F2;
+    height: 10px;
+}
+
+.Savoir-faire {
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(162, 115, 22);
+}
+
+.image12 {
+    text-align: center;
+    width: 20%;
+    border: 1px solid rgb(188, 51, 51);
+    text-align: center;
+}
+
+.image3 {
+    justify-content: center;
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+}
+
+.image1 {
+    width: 20%;
+    border: 1px solid blueviolet;
+    text-align: center;
+
+}
+
+.grandediv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-h2 {
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+.simplifier {
+    display: grid;
+    gap: 15px;
+    width: 45%;
+}
+
+button:hover {
+    background-color: rgb(255, 0, 255);
+
+}
+
+.employeur {
+    display: grid;
+    width: 40%;
+    border: 1px solid black;
+    gap: 15px;
+}
+
+.bas {
+    background-color: #FFFAEE;
 }
